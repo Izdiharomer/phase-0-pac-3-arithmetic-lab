@@ -1,7 +1,24 @@
+
+
+const random = Math.floor(Math.random() * 1000) + 1;
+console.log(random);
+
+const num3 = 18;
+const num4 = 7;
+
+const mod = (num3 % num4) + 4;
+console.log(mod);
+
 function add(a, b) {
     return a + b
 }
-console.log(add(2, 3));
+console.log(add(60, 2));
+
+const max = [2, 5, 6, 8, 19, 20]
+const result = Math.max(...max);
+console.log(result);
+
+
 
 function multiply(a, b) {
     return a * b
